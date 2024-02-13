@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #202427; */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------------- Header CSS ---------- */
+
+#yo {
+    font-size: 80px;
+    line-height: 90px;
+}
+
+.container- {
+    /* border: 2px solid red; */
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .row- {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 60px; */
+    flex-wrap: wrap;
+    /* border: 2px solid green; */
+  }
+  .col-2- {
+    flex-basis: 50%;
+    max-width: 500px;
+  }
+  .col-2- img {
+    /* max-width: 100%; */
+    padding: 50px 0px;
+  }
+  .col-2- h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 18px 0px;
+  }
+  .header- {
+    /* background: radial-gradient(#fff,#ffd6d6); */
+    background-color: #202427;
+}
+
+/* --------------- end ----------------- */
+
+
+
+/* ---------------- Carousal CSS ------------ */
+
+.carousal-container {
+    border: transparent;
+    /* background: linear-gradient(antiquewhite,#fff) ; */
+    background-color: #202427;
+    padding: 10px 0;
+}
+
+.carousal-row {
+    /* border: 2px solid red; */
+    max-width: 1000px;
+    margin: auto;
+    /* margin-top: 50px; */
+}
+
+/* ---------- News CSS ------------ */
+
+.News-container {
+    /* border: 2px solid red; */
+    background-color: #202427;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.News-container h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    padding-top: 80px;
+}
+.News-row {
+    /* border: 2px solid green; */
+    margin: auto;
+    max-width: 1100px;
+    /* margin: 0 40px; */
+    /* padding: 15px 60px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* --------- Summer Challenge ----------- */
+
+.S-offer {
+    background-color: #63271d;
+    /* border: 2px solid red; */
+}
+.S-small-container {
+    /* border: 2px solid green; */
+    /* background-color: #63271d; */
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.S-row {
+    /* border: 2px solid white; */
+    /* background-color: #63271d; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+    flex-wrap: wrap;
+    
+    /* border: 2px solid green; */
+}
+.col-2 {
+    /* border: 2px solid red; */
+    flex-basis: 50%;
+    max-width: 500px;
+}
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0px;
+}
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 18px 0px;
+}
+.btn {
+    display: inline-block;
+    background-color: #afa6a6;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 24px 0px;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+.btn:hover {
+    background: #858282;
+    /* box-shadow: 3px 3px 2px 0px #afa6a6; */
+}
+small {
+    color: #fff;
+}
+.offer-img{
+    padding: 50px;
+}
+.offer {
+    /* background: radial-gradient(#fff,#ffd6d6); */
+    /* margin-top: 80px; */
+    padding: 5px 0;
+}
+
+/* ---------- BRANDS ---------- */
+
+.BSC {
+    /* border: 2px solid red; */
+    max-width: 1080px;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.BR {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    background-color: #63271d;
+    /* border: 2px solid green; */
+}
+.brands {
+    margin: 60px auto;
+    /* border: 2px solid blueviolet; */
+}
+.col-5 {
+    /* border: 2px solid red; */
+    width: 160px;
+    flex-basis: 20%;
+}
+.col-5 img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+.col-5 img:hover {
+    cursor: pointer;
+    filter: grayscale(0);
+}

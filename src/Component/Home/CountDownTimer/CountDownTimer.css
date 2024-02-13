@@ -1,0 +1,33 @@
+.CDT-container {
+    /* border: 2px solid red; */
+    margin-top: 60px;
+}
+.CDT-row {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-timer {
+    width: 500px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 12px;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-timer span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.two-numbers {
+    width: 2ch;
+}

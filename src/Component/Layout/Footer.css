@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.footer {
+    /* border: 2px solid red; */
+    /* margin-top: 100px; */
+    /* background: #343a40; */
+    background: #202427;
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 30px ;
+    padding-top: 30px;
+}
+.footer h3 {
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    min-width: 250px;
+    padding: 5px 5px;
+    /* border: 2px solid yellow; */
+}
+.footer-col-1 {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+}
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4 {
+    flex-basis: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+}
+.app-logo {
+    margin: 20px 0px;
+}
+.app-logo img {
+    width: 200px;
+}
+.footer hr {
+    border: none;
+    height: 1px;
+    background: #b5b5b5;
+    margin: 20px 0;
+}
+.copyright {
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+.Sports-row-item {
+    /* border: 2px solid grey; */
+    margin: 20px 0;
+
+    width: 280px;
+    text-align: left;
+    padding: 10px 40px;
+
+    box-shadow: 0 0 8px #888888;
+}
+
+.Sports-row-item h1 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 100px;
+}
+
+.Sports-row-item h1:hover {
+    cursor: pointer;
+    font-weight: 600;
+    color: #888888;
+}
+
+.Sports-row-item li:hover {
+    cursor: pointer;
+}

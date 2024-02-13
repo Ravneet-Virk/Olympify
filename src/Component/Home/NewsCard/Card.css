@@ -1,0 +1,17 @@
+.card {
+    background-color: #202427;
+    color: #fff;
+    border-color: transparent;
+    text-align: justify;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+    margin: 50px 0px;
+    transition: all 0.5s;
+}
+.card p{
+    font-size: small;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
